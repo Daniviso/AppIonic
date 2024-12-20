@@ -1,0 +1,7 @@
+{
+  "name": "talent-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
