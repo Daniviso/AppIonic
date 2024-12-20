@@ -1,0 +1,25 @@
+/* Contenedor principal que ocupa toda la altura de la pantalla */
+ion-content {
+    display: flex;               /* Activamos flexbox */
+    justify-content: center;     /* Centra el contenido horizontalmente */
+    align-items: center;         /* Centra el contenido verticalmente */
+    height: 100vh;               /* Asegura que el contenedor ocupe el 100% de la altura de la pantalla */
+  }
+  
+  ion-button {
+    /* Color de fondo por defecto (azul claro) */
+    --background: #007bff;       /* Azul claro */
+    --color: white;              /* Color del texto (blanco) */
+    
+    /* Bordes más redondeados */
+    --border-radius: 50px;       /* Bordes muy redondeados */
+    
+    /* Efecto de sombra para darle un efecto flotante */
+    --box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    
+    /* Estilo cuando el botón está en hover */
+    &:hover {
+      --background: #0056b3;     /* Azul más oscuro cuando el ratón pasa sobre el botón */
+      --box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.2); /* Aumentar sombra para el efecto flotante */
+    }
+  }
